@@ -1,0 +1,8 @@
+:root {
+  --blanco: white;
+  --verde-oscuro: #066655;
+  --verde-claro: #0b9078;
+  --negro: #000;
+  --blanco-transparente: hsla(0, 0%, 100%, 0.685);
+  --gris-opaco: #555555b6;
+}
