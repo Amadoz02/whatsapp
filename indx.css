@@ -1,5 +1,6 @@
-@import url(c_propetis.css);
-@import url(estilos.css);
+@import url(estilos/cuerpo_estilos.css);
+@import url(estilos/c_propetis.css);
+@import url(estilos/encabezado_estile.css);
 * {
   margin: 0;
   padding: 0;
