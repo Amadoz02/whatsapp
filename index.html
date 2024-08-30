@@ -24,14 +24,21 @@
         <div class="encabezado__logo_icono">
           <div class="encabezado__logo">WhatsApp</div>
           <div class="encabezado__iconos">
-            <span class="material-symbols-outlined">photo_camera</span>
-            <span class="material-symbols-outlined icono">search</span>
-            <span class="material-symbols-outlined icono"> more_vert </span>
+            <a href="#" class="bot_icono">
+              <span class="material-symbols-outlined icono">photo_camera</span>
+            </a>
+            <a href="#" class="bot_icono">
+              <span class="material-symbols-outlined icono">search</span>
+            </a>
+            <a href="#" class="bot_icono">
+              <span class="material-symbols-outlined icono"> more_vert </span>
+            </a>
+
           </div>
         </div>
-        <input type="radio" name="group" id="chats" checked="">
-        <input type="radio" name="group" id="status" checked="">
-        <input type="radio" name="group" id="calls" checked="">
+      <input type="radio" name="group" id="chats" checked>
+      <input type="radio" name="group" id="status">
+      <input type="radio" name="group" id="calls">
         <div class="encabezado__menu bottons">
             <label for="chats" class="encabezado__menu__item">CHATS</label>
             <label for="status" class="encabezado__menu__item">STATUS</label>
@@ -41,8 +48,6 @@
       </header>
     <!-- chats -->
     <div class="contenido_w">
-
-      
         <div class="cuerpo">
           <div class="telefono__burbuja">
             <i class="bx bxs-message-square-dots"></i>
@@ -189,12 +194,39 @@
           </div>
         </div>
       </div>
-      <div class="status">
+          <div class="status">
+            <div class="cuerpo__chat">
 
-      </div>
-      <div class="calls">
+              <div class="chat__perfil">
+                <img src="img/perfil_wht.jpg" class="foto" alt="foto_perfil" />
+              </div>
+              <div class="chat__contenido">
+                <h1 class="chat__contenido__nombre">HELDER</h1>
+                <a href="" class="chat__contenido_mensaje"></a>
+                  ✓ Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+                  aut</a
+                >
+              </div>
+              <div class="chat__hora">9:00 am</div>
+            </div>
+          </div>
+          <div class="calls">
+            <div class="cuerpo__chat">
 
-      </div>
+              <div class="chat__perfil">
+                <img src="img/perfil_wht.jpg" class="foto" alt="foto_perfil" />
+              </div>
+              <div class="chat__contenido">
+                <h1 class="chat__contenido__nombre">HELDER</h1>
+                <a href="" class="chat__contenido_mensaje"></a>
+                  ✓ Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+                  aut</a
+                >
+              </div>
+              <div class="chat__hora">9:00 am</div>
+            </div>
+
+          </div>
     </div>
   </body>
 </html>
